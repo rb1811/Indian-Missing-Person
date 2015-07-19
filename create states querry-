@@ -1,0 +1,59 @@
+CREATE (Country :INDIA {name:"India"})
+CREATE (Andhra :States {name:"Andhra Pradesh"})
+CREATE (Arunachal :States {name:"Arunachal Pradesh"})
+CREATE (Assam :States {name:"Assam"})
+CREATE (Bihar :States {name:"Bihar"})
+CREATE (Chhattisgarh :States {name:"Chhattisgarh"})
+CREATE (Goa :States {name:"Goa"})
+CREATE (Gujarat :States {name:"Gujarat"})
+CREATE (Haryana :States {name:"Haryana"})
+CREATE (Himachal :States {name:"Himachal Pradesh"})
+CREATE (Jammu :States {name:"Jammu and Kashmir"})
+CREATE (Jharkhand :States {name:"Jharkhand"})
+CREATE (Karnataka :States {name:"Karnataka"})
+CREATE (Kerala :States {name:"Kerala"})
+CREATE (Madhya :States {name:"Madhya Pradesh"})
+CREATE (Maharashtra :States {name:"Maharashtra"})
+CREATE (Manipur :States {name:"Manipur"})
+CREATE (Meghalaya :States {name:"Meghalaya"})
+CREATE (Mizoram :States {name:"Mizoram"})
+CREATE (Nagaland :States {name:"Nagaland"})
+CREATE (Orissa :States {name:"Orissa"})
+CREATE (Punjab :States {name:"Punjab"})
+CREATE (Rajasthan :States {name:"Rajasthan"})
+CREATE (Sikkim :States {name:"Sikkim"})
+CREATE (TamilNadu :States {name:"Tamil Nadu"})
+CREATE (Telangana :States {name:"Telangana"})
+CREATE (Tripura :States {name:"Tripura"})
+CREATE (Uttar :States {name:"Uttar Pradesh"})
+CREATE (Uttarakhand :States {name:"Uttarakhand"})
+CREATE (West :States {name:"West Bengal"}),
+(Andhra)-[:States_of]->(Country),
+(Arunachal)-[:States_of]->(Country),
+(Assam)-[:States_of]->(Country),
+(Bihar)-[:States_of]->(Country),
+(Chattisgarh)-[:States_of]->(Country),
+(Goa)-[:States_of]->(Country),
+(Gujarat)-[:States_of]->(Country),
+(Haryana)-[:States_of]->(Country),
+(Himachal)-[:States_of]->(Country),
+(Jammu)-[:States_of]->(Country),
+(Jharkhand)-[:States_of]->(Country),
+(Karnataka)-[:States_of]->(Country),
+(Kerala)-[:States_of]->(Country),
+(Madhya)-[:States_of]->(Country),
+(Maharashtra)-[:States_of]->(Country),
+(Manipur)-[:States_of]->(Country),
+(Meghalaya)-[:States_of]->(Country),
+(Mizoram)-[:States_of]->(Country),
+(Nagaland)-[:States_of]->(Country),
+(Orissa)-[:States_of]->(Country),
+(Punjab)-[:States_of]->(Country),
+(Rajasthan)-[:States_of]->(Country),
+(Sikkim)-[:States_of]->(Country),
+(TamilNadu)-[:States_of]->(Country),
+(Telangana)-[:States_of]->(Country),
+(Tripura)-[:States_of]->(Country),
+(Uttar)-[:States_of]->(Country),
+(Uttarakhand)-[:States_of]->(Country),
+(West)-[:States_of]->(Country);
